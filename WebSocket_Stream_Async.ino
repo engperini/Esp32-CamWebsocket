@@ -386,7 +386,7 @@ void setup() {
 
   //---setup wifi---------------------------------------------------------------------------------
   Serial.begin(115200);
-  WiFi.begin("ARTHUR WIFI", "art123@#");
+  WiFi.begin("XXXXXXXX", "XXXXXXXX");
   Serial.println("");
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
